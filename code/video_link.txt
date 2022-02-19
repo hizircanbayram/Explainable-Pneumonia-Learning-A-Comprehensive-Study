@@ -1,0 +1,2 @@
+https://youtu.be/lpNlS8H6Pww
+Dataset link: https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/data
