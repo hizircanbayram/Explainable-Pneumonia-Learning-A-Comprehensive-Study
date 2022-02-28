@@ -114,6 +114,33 @@ values and generated our binary saliency maps. We detected
 a threshold value of nearly 150 is promising in terms of dice
 coefficient.
 
+We calculated the Dice score for each model by using the
+threshold values of 100, 125, 150, 175, 200, which I determined as we mentioned in Figure 4. Dice score was obtained
+by using separate threshold values for each model. 5000 images were used for analysis. The analysis took approximately 18 hours. Analyzes were performed on a Windows10
+operating system device with an Intel Core i7 processor and
+16GB ram. 
+The results of the LayerCam method are shown below.
+
+ | Models / Threshold |  100 |  125 |  150 |  175 |  200 | 
+| ------------- | ------------- |  ------------- |  ------------- |  ------------- |  ------------- | 
+ | Random DenseNet |  0.131 |  0.125 |  0.114 |  0.102 |  0.065 | 
+ | Random ResNet |  0.126 |  0.122 |  0.114 |  0.106 |  0.081 | 
+ | Normal DenseNet |  0.304 |  0.305 |  0.303 |  0.297 |  0.277 | 
+ | Normal ResNet  | 0.330 |  0.327 |  0.318 |  0.305 |  0.260 | 
+ | LungSegm DenseNet  | 0.343 |  0.344 |  0.342 |  0.334 |  0.303 | 
+ | LungSegm ResNet |  0.339 |  0.337 |  0.330 |  0.318 |  0.262 | 
+
+The results of the Gcam method are shown below.
+
+|Models / Threshold |  100  | 125 |  150 |  175 |  200 | 
+| ------------- | ------------- |  ------------- |  ------------- |  ------------- |  ------------- | 
+ | Random DenseNet |  0.131 |  0.125 |  0.114 |  0.102 |  0.065 | 
+ | Random ResNet |  0.126 |  0.122 |  0.114 |  0.106 |  0.081 | 
+ | Normal DenseNet |  0.304 |  0.305 |  0.303 |  0.297 |  0.277 | 
+ | Normal ResNet |  0.330 |  0.327 |  0.318 |  0.305 |  0.260 | 
+ | LungSegm DenseNet |  0.343 |  0.344 |  0.342 |  0.334 |  0.303 | 
+ | LungSegm ResNet |  0.339 |  0.337 |  0.330 |  0.318 |  0.262 | 
+ 
 
 ## **Usage**
 
