@@ -162,4 +162,4 @@ The report can be found in the repository.
 
 
 ## **Acknowledgement** 
-This project is carried out for Trustable AI Course at Istanbul Technical University during 2021 fall semester.
+This project is carried out for Trustable AI Course at Istanbul Technical University during 2021 fall semester. We thank DeepCloudLabs for GPU support.
